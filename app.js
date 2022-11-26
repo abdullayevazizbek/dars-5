@@ -1,27 +1,43 @@
 const wrapper = document.querySelector('.wrapper')
 
-const node = [{
-        tagName: 'h1',
-        atributes: {
-            class: 'text-class',
-            id: 'text-id',
-        },
-        content: 'Hello World'
-    },
+const node = [
     {
         tagName: 'div',
         atributes: {
-            class: 'row',
+            class: 'canteiner',
         },
-        content: [{
-            tagName: 'h4',
-            atributes: {
-                class: 'small-text',
-                id: 'text-id',
-            },
-            content: 'Small text'
-        }]
+        // content: [{
+        //     tagName: 'h4',
+        //     atributes: {
+        //         class: 'small-text',
+        //         id: 'text-id',
+        //     },
+        //     content: 'Small text'
+        // }]
     }
+    {
+        tagName: 'input',
+        atributes: {
+            class: 'input_text',
+            // id: 'text-id',
+        },
+        // content: 'Hello World'
+    },
+    {
+        tagName: 'input',
+        atributes: {
+            class: 'input_text',
+        },
+        // content: [{
+        //     tagName: 'h4',
+        //     atributes: {
+        //         class: 'small-text',
+        //         id: 'text-id',
+        //     },
+        //     content: 'Small text'
+        // }]
+    },
+    
 ]
 
 
