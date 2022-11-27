@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+body,
+html {
+    height: 100vh;
+}
 
 * {
     margin: 0;
@@ -17,4 +22,80 @@ a {
 
 button {
     cursor: pointer;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.canteiner {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.bosh {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 15px;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.bosh:not(:first-child) {
+    margin-top: 25px;
+}
+
+.form,
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.masala_one,
+.masala_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_btn {
+    cursor: pointer;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Opens sans',sans-serif;
+    font-weight: 400;
+    width: 150px;
+    height: 60px;
+}
+
+.javob {
+    margin-top: 25px;
+    width: 200px;
+    height: 60px;
+    padding: 20px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
 }
